@@ -32,6 +32,7 @@
 		E6B376DF1C941D2200E5071D /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376DE1C941D2200E5071D /* TestVC.swift */; };
 		E6B376E11C941D2D00E5071D /* TestVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B376E01C941D2D00E5071D /* TestVC.storyboard */; };
 		E6B376E31C941F3B00E5071D /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376E21C941F3B00E5071D /* Globals.swift */; };
+		E6B376E91C9423EA00E5071D /* RootCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376E81C9423EA00E5071D /* RootCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		E6B376DE1C941D2200E5071D /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
 		E6B376E01C941D2D00E5071D /* TestVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TestVC.storyboard; sourceTree = "<group>"; };
 		E6B376E21C941F3B00E5071D /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		E6B376E81C9423EA00E5071D /* RootCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				E6B376BE1C9415B900E5071D /* RootNaviVC.storyboard */,
 				E6B376C21C94174B00E5071D /* RootVC.swift */,
 				E6B376C61C941B9100E5071D /* RootCell.xib */,
+				E6B376E81C9423EA00E5071D /* RootCell.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				E6B376D31C941C3900E5071D /* UILabel+Util.swift in Sources */,
 				E6B376CF1C941C3900E5071D /* String+Util.swift in Sources */,
 				E6B376E31C941F3B00E5071D /* Globals.swift in Sources */,
+				E6B376E91C9423EA00E5071D /* RootCell.swift in Sources */,
 				E6B376861C940EC900E5071D /* ViewController.swift in Sources */,
 				E6B376D01C941C3900E5071D /* UICollectionView+Type.swift in Sources */,
 				E6B376DB1C941C6200E5071D /* CustomButton.swift in Sources */,

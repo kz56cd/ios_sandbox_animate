@@ -10,12 +10,13 @@ import UIKit
 
 class RootVC: ViewController {
 
-    private let CELL_IDENTIFIER_DEFAULT = "Cell"
+    private let CELL_IDENTIFIER_ROOT = "RootCell"
     
-    @IBOutlet weak var table: UITableView!
+    @IBOutlet weak var table: UITableView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        initView()
         initTableView()
     }
 
@@ -23,14 +24,17 @@ class RootVC: ViewController {
         super.didReceiveMemoryWarning()
     }
     
+    private func initView() {
+        title = "Animate"
+    }
     
-    func initTableView() {
-        table?.registerClass(UITableViewCell.self, forCellReuseIdentifier: CELL_IDENTIFIER_DEFAULT)
+    private func initTableView() {
+        table?.registerNib(UINib(nibName: CELL_IDENTIFIER_ROOT, bundle:nil), forCellReuseIdentifier: CELL_IDENTIFIER_ROOT)
     }
     
     func makeCell(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = "aaaaaaaaaaaaa"
+        let cell = tableView.dequeueReusableCellWithIdentifier(CELL_IDENTIFIER_ROOT, forIndexPath: indexPath) as! RootCell
+        cell.fillWithCell(indexPath.row, title: indexPath.row == 0 ? "test animate" : "")
         return cell
     }
 }
@@ -47,12 +51,13 @@ extension RootVC: UITableViewDataSource {
 
 extension RootVC: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("tapped cell.")
-        
-        guard let vc:TestVC = TestVC.instantiate() else {
-            return
+        if indexPath.row == 0 {
+            guard let vc:TestVC = TestVC.instantiate() else {
+                return
+            }
+            vc.viewName = "test animate"
+            navigationController?.pushViewController(vc, animated: true)
         }
-        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
