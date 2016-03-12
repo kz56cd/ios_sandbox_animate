@@ -48,6 +48,11 @@ extension RootVC: UITableViewDataSource {
 extension RootVC: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print("tapped cell.")
+        
+        guard let vc:TestVC = TestVC.instantiate() else {
+            return
+        }
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
