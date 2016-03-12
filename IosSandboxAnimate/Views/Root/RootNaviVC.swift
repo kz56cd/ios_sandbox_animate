@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RootNaviVC.swift
 //  IosSandboxAnimate
 //
 //  Created by msano on 2016/03/12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RootNaviVC: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,3 +19,4 @@ class ViewController: UIViewController {
     }
 }
 
+extension RootNaviVC : StoryboardInstantiable {}

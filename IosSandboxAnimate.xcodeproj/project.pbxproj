@@ -14,6 +14,10 @@
 		E6B3768E1C940EC900E5071D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B3768C1C940EC900E5071D /* LaunchScreen.storyboard */; };
 		E6B376991C940EC900E5071D /* IosSandboxAnimateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376981C940EC900E5071D /* IosSandboxAnimateTests.swift */; };
 		E6B376A41C940ECA00E5071D /* IosSandboxAnimateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376A31C940ECA00E5071D /* IosSandboxAnimateUITests.swift */; };
+		E6B376B31C94120A00E5071D /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376B21C94120A00E5071D /* StoryboardInstantiable.swift */; };
+		E6B376BD1C9413B200E5071D /* RootNaviVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376BC1C9413B200E5071D /* RootNaviVC.swift */; };
+		E6B376BF1C9415B900E5071D /* RootNaviVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B376BE1C9415B900E5071D /* RootNaviVC.storyboard */; };
+		E6B376C31C94174B00E5071D /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B376C21C94174B00E5071D /* RootVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E6B3769F1C940ECA00E5071D /* IosSandboxAnimateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosSandboxAnimateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B376A31C940ECA00E5071D /* IosSandboxAnimateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosSandboxAnimateUITests.swift; sourceTree = "<group>"; };
 		E6B376A51C940ECA00E5071D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B376B21C94120A00E5071D /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		E6B376BC1C9413B200E5071D /* RootNaviVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNaviVC.swift; sourceTree = "<group>"; };
+		E6B376BE1C9415B900E5071D /* RootNaviVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RootNaviVC.storyboard; sourceTree = "<group>"; };
+		E6B376C21C94174B00E5071D /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		E6B376821C940EC900E5071D /* IosSandboxAnimate */ = {
 			isa = PBXGroup;
 			children = (
+				E6B376B11C94120A00E5071D /* Utils */,
+				E6B376B41C94123B00E5071D /* Views */,
 				E6B376831C940EC900E5071D /* AppDelegate.swift */,
 				E6B376851C940EC900E5071D /* ViewController.swift */,
 				E6B376871C940EC900E5071D /* Main.storyboard */,
@@ -123,6 +133,32 @@
 				E6B376A51C940ECA00E5071D /* Info.plist */,
 			);
 			path = IosSandboxAnimateUITests;
+			sourceTree = "<group>";
+		};
+		E6B376B11C94120A00E5071D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E6B376B21C94120A00E5071D /* StoryboardInstantiable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E6B376B41C94123B00E5071D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6B376B71C94126600E5071D /* Root */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6B376B71C94126600E5071D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				E6B376BC1C9413B200E5071D /* RootNaviVC.swift */,
+				E6B376BE1C9415B900E5071D /* RootNaviVC.storyboard */,
+				E6B376C21C94174B00E5071D /* RootVC.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +268,7 @@
 				E6B3768E1C940EC900E5071D /* LaunchScreen.storyboard in Resources */,
 				E6B3768B1C940EC900E5071D /* Assets.xcassets in Resources */,
 				E6B376891C940EC900E5071D /* Main.storyboard in Resources */,
+				E6B376BF1C9415B900E5071D /* RootNaviVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6B376861C940EC900E5071D /* ViewController.swift in Sources */,
+				E6B376B31C94120A00E5071D /* StoryboardInstantiable.swift in Sources */,
+				E6B376C31C94174B00E5071D /* RootVC.swift in Sources */,
+				E6B376BD1C9413B200E5071D /* RootNaviVC.swift in Sources */,
 				E6B376841C940EC900E5071D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
