@@ -16,13 +16,16 @@ class TestVC: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initView()
-        beganAnimate()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-   
+    
+    override func viewDidAppear(animated: Bool) {
+        beganAnimate()
+    }
+    
     
     // MARK: private
     
@@ -32,6 +35,7 @@ class TestVC: ViewController {
     }
     
     private func beganAnimate() {
+        imageView.hidden = false
         let moveToCenter = CABasicAnimation(keyPath: "position.x")
         moveToCenter.fromValue = -view.bounds.size.width/2
         moveToCenter.toValue = view.bounds.size.width/2
