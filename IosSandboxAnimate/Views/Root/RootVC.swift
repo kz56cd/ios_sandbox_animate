@@ -35,7 +35,7 @@ class RootVC: ViewController {
     
     private func makeCell(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(CELL_IDENTIFIER_ROOT, forIndexPath: indexPath) as! RootCell
-        cell.fillWithCell(indexPath.row + 1, title: indexPath.row < nameList.count ? nameList[indexPath.row] : "")
+        cell.fillWithCell(indexPath.row + 1, title: checkhaveVCName(indexPath.row) ? nameList[indexPath.row] : "")
         return cell
     }
     
@@ -52,15 +52,19 @@ class RootVC: ViewController {
             break
         }
         if let vc = vc {
-            vc.viewName = nameList[row]
+            vc.viewName = checkhaveVCName(row) ? nameList[row] : ""
             navigationController?.pushViewController(vc, animated: true)
         }
     }
     
     private let nameList = [
-        "test animate",
+        "test animate(image)",
         "animate view"
     ]
+    
+    private func checkhaveVCName(num: Int) -> Bool {
+        return num < nameList.count
+    }
 }
 
 extension RootVC: UITableViewDataSource {
@@ -75,7 +79,9 @@ extension RootVC: UITableViewDataSource {
 
 extension RootVC: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        moveVC(indexPath)
+        if checkhaveVCName(indexPath.row) {
+            moveVC(indexPath)
+        }
     }
 }
 
