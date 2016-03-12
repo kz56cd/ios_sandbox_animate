@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ms3-Ih-Ar1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--A02VC-->
+        <scene sceneID="OVO-n0-jYg">
+            <objects>
+                <viewController id="Ms3-Ih-Ar1" customClass="A02VC" customModule="IosSandboxAnimate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YI0-G7-A24"/>
+                        <viewControllerLayoutGuide type="bottom" id="jz2-84-1av"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ue0-XN-h3H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="llX-oV-oGI">
+                                <rect key="frame" x="87" y="234" width="200" height="200"/>
+                                <color key="backgroundColor" red="1" green="0.75472818082127247" blue="0.00028541528504488767" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3cr-L1-dj2"/>
+                                    <constraint firstAttribute="height" constant="200" id="fbE-Bl-yNC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="llX-oV-oGI" firstAttribute="centerX" secondItem="Ue0-XN-h3H" secondAttribute="centerX" id="OUb-xK-6OV"/>
+                            <constraint firstItem="llX-oV-oGI" firstAttribute="centerY" secondItem="Ue0-XN-h3H" secondAttribute="centerY" id="X12-Xr-IUQ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="animationView" destination="llX-oV-oGI" id="RQX-LJ-c5z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uj0-hF-r7H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646.5" y="42.5"/>
+        </scene>
+    </scenes>
+</document>

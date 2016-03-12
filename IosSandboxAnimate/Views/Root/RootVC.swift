@@ -10,6 +10,7 @@ import UIKit
 
 class RootVC: ViewController {
 
+    private let VC_NAME              = "Animate"
     private let CELL_IDENTIFIER_ROOT = "RootCell"
     
     @IBOutlet weak var table: UITableView?
@@ -25,18 +26,41 @@ class RootVC: ViewController {
     }
     
     private func initView() {
-        title = "Animate"
+        title = VC_NAME
     }
     
     private func initTableView() {
         table?.registerNib(UINib(nibName: CELL_IDENTIFIER_ROOT, bundle:nil), forCellReuseIdentifier: CELL_IDENTIFIER_ROOT)
     }
     
-    func makeCell(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    private func makeCell(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(CELL_IDENTIFIER_ROOT, forIndexPath: indexPath) as! RootCell
-        cell.fillWithCell(indexPath.row, title: indexPath.row == 0 ? "test animate" : "")
+        cell.fillWithCell(indexPath.row + 1, title: indexPath.row < nameList.count ? nameList[indexPath.row] : "")
         return cell
     }
+    
+    private func moveVC(indexPath: NSIndexPath) {
+        let row                = indexPath.row
+        var vc:ViewController? = nil
+        
+        switch row + 1 {
+        case 1:
+            vc = A01VC.instantiate()
+        case 2:
+            vc = A02VC.instantiate()
+        default:
+            break
+        }
+        if let vc = vc {
+            vc.viewName = nameList[row]
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
+    private let nameList = [
+        "test animate",
+        "animate view"
+    ]
 }
 
 extension RootVC: UITableViewDataSource {
@@ -51,13 +75,7 @@ extension RootVC: UITableViewDataSource {
 
 extension RootVC: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if indexPath.row == 0 {
-            guard let vc:TestVC = TestVC.instantiate() else {
-                return
-            }
-            vc.viewName = "test animate"
-            navigationController?.pushViewController(vc, animated: true)
-        }
+        moveVC(indexPath)
     }
 }
 
