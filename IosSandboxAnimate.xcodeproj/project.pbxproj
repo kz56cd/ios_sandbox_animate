@@ -484,6 +484,7 @@
 				E6B376AA1C940ECA00E5071D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6B376AB1C940ECA00E5071D /* Build configuration list for PBXNativeTarget "IosSandboxAnimateTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				E6B376AD1C940ECA00E5071D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6B376AE1C940ECA00E5071D /* Build configuration list for PBXNativeTarget "IosSandboxAnimateUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				E6B376B01C940ECA00E5071D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
