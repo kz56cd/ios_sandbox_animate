@@ -1,5 +1,5 @@
 //
-//  TestVC.swift
+//  A01VC.swift
 //  IosSandboxAnimate
 //
 //  Created by msano on 2016/03/12.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class TestVC: ViewController {
-
+class A01VC: ViewController {
+    
     @IBOutlet weak var imageView: UIImageView!
 //    var viewName : String?
     
@@ -17,7 +17,7 @@ class TestVC: ViewController {
         super.viewDidLoad()
         initView()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -39,9 +39,9 @@ class TestVC: ViewController {
         let moveToCenter = CABasicAnimation(keyPath: "position.x")
         moveToCenter.fromValue = -view.bounds.size.width/2
         moveToCenter.toValue = view.bounds.size.width/2
-        moveToCenter.duration = 2.0
+        moveToCenter.duration = 0.5
         imageView.layer.addAnimation(moveToCenter, forKey: nil)
     }
 }
 
-extension TestVC: StoryboardInstantiable {}
+extension A01VC : StoryboardInstantiable {}

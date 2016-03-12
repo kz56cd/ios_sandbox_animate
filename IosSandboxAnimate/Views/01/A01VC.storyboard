@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4bt-0v-fVx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--A01VC-->
+        <scene sceneID="0A4-0c-qGP">
+            <objects>
+                <viewController id="4bt-0v-fVx" customClass="A01VC" customModule="IosSandboxAnimate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mpl-Ug-fBa"/>
+                        <viewControllerLayoutGuide type="bottom" id="BSW-5w-Kzl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yxk-2E-Out">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample01" translatesAutoresizingMaskIntoConstraints="NO" id="B6f-Kq-ISd">
+                                <rect key="frame" x="137" y="284" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="GID-fx-XlD"/>
+                                    <constraint firstAttribute="height" constant="100" id="KwY-WV-Hdp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="B6f-Kq-ISd" firstAttribute="centerY" secondItem="yxk-2E-Out" secondAttribute="centerY" id="1RB-qc-8De"/>
+                            <constraint firstItem="B6f-Kq-ISd" firstAttribute="centerX" secondItem="yxk-2E-Out" secondAttribute="centerX" id="oTS-XU-SEg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="B6f-Kq-ISd" id="YQ7-Cd-8Sz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zPf-M1-8fh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369" y="228"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sample01" width="64" height="64"/>
+    </resources>
+</document>
