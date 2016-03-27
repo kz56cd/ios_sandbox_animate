@@ -6,49 +6,221 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		080030B14D57A52D93500E43595032F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		2B3212B79AAF15DC5DAEE5E1C67AE289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		37E49A5CAA8F7F24E055CAD8ADCED3BE /* Pods-IosSandboxAnimateUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E1DE3BA0EDD23D28CD1A9E362D4BD /* Pods-IosSandboxAnimateUITests-dummy.m */; };
+		8B2ABE050F27B7317CBCC3A3BA64A8A4 /* Pods-IosSandboxAnimate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA107291B2509DAA53E4069285AAA1E /* Pods-IosSandboxAnimate-dummy.m */; };
+		8B6C297B2205894E0972650F88E5C38B /* Pods-IosSandboxAnimateTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD806685A7213F8FC4AA30F473B7DBE /* Pods-IosSandboxAnimateTests-dummy.m */; };
+		8BCDA6C638031C4368AD30D6744FFBC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		05886B9A4EE316421806AB98E6BC836D /* Pods-IosSandboxAnimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosSandboxAnimate.debug.xcconfig"; sourceTree = "<group>"; };
+		0A8E1DE3BA0EDD23D28CD1A9E362D4BD /* Pods-IosSandboxAnimateUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IosSandboxAnimateUITests-dummy.m"; sourceTree = "<group>"; };
+		0B555D02ED5734A4294B1F172C5D26F6 /* Pods-IosSandboxAnimate-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosSandboxAnimate-resources.sh"; sourceTree = "<group>"; };
+		106ECF6B6A18AC5F3BD8E881F2F8B548 /* libPods-IosSandboxAnimateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IosSandboxAnimateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3C7B80A6858C91BC424654140F8753 /* Pods-IosSandboxAnimate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IosSandboxAnimate-acknowledgements.plist"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		497AF663F13378785D02613F9F5BF6C7 /* Pods-IosSandboxAnimateTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosSandboxAnimateTests-resources.sh"; sourceTree = "<group>"; };
+		4991FD1753DFD34CBB68BA8E370A6DB5 /* Pods-IosSandboxAnimateTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IosSandboxAnimateTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B44572C0C7A6718FCD443DC808F1702 /* Pods-IosSandboxAnimateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosSandboxAnimateTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BC8498CCE4C2EA0FA7A12C31954749A /* Pods-IosSandboxAnimate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosSandboxAnimate-frameworks.sh"; sourceTree = "<group>"; };
+		4EA107291B2509DAA53E4069285AAA1E /* Pods-IosSandboxAnimate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IosSandboxAnimate-dummy.m"; sourceTree = "<group>"; };
+		6DE34042072A8EC02DB81C555DA453BC /* Pods-IosSandboxAnimateUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IosSandboxAnimateUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		715A4F1E600EDD9C470D032BE9EFAE27 /* Pods-IosSandboxAnimateTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IosSandboxAnimateTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		823D387776A0BA3730263EA46C24AEC6 /* libPods-IosSandboxAnimate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IosSandboxAnimate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		955AB28F932ABCF56D94ED3677BDACA5 /* Pods-IosSandboxAnimateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosSandboxAnimateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE521D3F32799EC1A84141D5DB1F841 /* Pods-IosSandboxAnimate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IosSandboxAnimate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0388FA57CB81E1565B2A113CFA42410 /* Pods-IosSandboxAnimateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosSandboxAnimateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1DC545A172571D0CB8224E2998E83F3 /* libPods-IosSandboxAnimateUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IosSandboxAnimateUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD806685A7213F8FC4AA30F473B7DBE /* Pods-IosSandboxAnimateTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IosSandboxAnimateTests-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCA63BE3BB82A960537553AFE3F73466 /* Pods-IosSandboxAnimateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosSandboxAnimateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBD9FC0F68D7ED3444A67A21F395EA47 /* Pods-IosSandboxAnimateUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IosSandboxAnimateUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D1CDFF0B7B04027C383323EB443597AE /* Pods-IosSandboxAnimateTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosSandboxAnimateTests-frameworks.sh"; sourceTree = "<group>"; };
+		D62D6BB4CB8167C9968A05F37BE94C7E /* Pods-IosSandboxAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IosSandboxAnimate.release.xcconfig"; sourceTree = "<group>"; };
+		DFC576535917E31DE882CC7C8ABCD47A /* Pods-IosSandboxAnimateUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosSandboxAnimateUITests-resources.sh"; sourceTree = "<group>"; };
+		E5CD9C5AF49799B197EF3923A4D841C2 /* Pods-IosSandboxAnimateUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IosSandboxAnimateUITests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		04C884C51EE36A1BD49D590B3CACC1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCDA6C638031C4368AD30D6744FFBC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F463FBE7056DC44904F60547D7A9E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3212B79AAF15DC5DAEE5E1C67AE289 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2159B57AC4B13653DDB05ACA456E6E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080030B14D57A52D93500E43595032F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		09C5E90726D2521A760312DBF50D9358 /* Products */ = {
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		3B971A38DD5AA4B59EC897B6E525AC3A /* Pods-IosSandboxAnimateTests */ = {
 			isa = PBXGroup;
 			children = (
+				4991FD1753DFD34CBB68BA8E370A6DB5 /* Pods-IosSandboxAnimateTests-acknowledgements.markdown */,
+				715A4F1E600EDD9C470D032BE9EFAE27 /* Pods-IosSandboxAnimateTests-acknowledgements.plist */,
+				AFD806685A7213F8FC4AA30F473B7DBE /* Pods-IosSandboxAnimateTests-dummy.m */,
+				D1CDFF0B7B04027C383323EB443597AE /* Pods-IosSandboxAnimateTests-frameworks.sh */,
+				497AF663F13378785D02613F9F5BF6C7 /* Pods-IosSandboxAnimateTests-resources.sh */,
+				955AB28F932ABCF56D94ED3677BDACA5 /* Pods-IosSandboxAnimateTests.debug.xcconfig */,
+				4B44572C0C7A6718FCD443DC808F1702 /* Pods-IosSandboxAnimateTests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-IosSandboxAnimateTests";
+			path = "Target Support Files/Pods-IosSandboxAnimateTests";
+			sourceTree = "<group>";
+		};
+		4F35B8962ADF1A22BE08EE8B0CA39F23 /* Pods-IosSandboxAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				9EE521D3F32799EC1A84141D5DB1F841 /* Pods-IosSandboxAnimate-acknowledgements.markdown */,
+				2A3C7B80A6858C91BC424654140F8753 /* Pods-IosSandboxAnimate-acknowledgements.plist */,
+				4EA107291B2509DAA53E4069285AAA1E /* Pods-IosSandboxAnimate-dummy.m */,
+				4BC8498CCE4C2EA0FA7A12C31954749A /* Pods-IosSandboxAnimate-frameworks.sh */,
+				0B555D02ED5734A4294B1F172C5D26F6 /* Pods-IosSandboxAnimate-resources.sh */,
+				05886B9A4EE316421806AB98E6BC836D /* Pods-IosSandboxAnimate.debug.xcconfig */,
+				D62D6BB4CB8167C9968A05F37BE94C7E /* Pods-IosSandboxAnimate.release.xcconfig */,
+			);
+			name = "Pods-IosSandboxAnimate";
+			path = "Target Support Files/Pods-IosSandboxAnimate";
+			sourceTree = "<group>";
+		};
+		5141298CD8B04D2E822EC1677D55B772 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F35B8962ADF1A22BE08EE8B0CA39F23 /* Pods-IosSandboxAnimate */,
+				3B971A38DD5AA4B59EC897B6E525AC3A /* Pods-IosSandboxAnimateTests */,
+				8E894A9080C9698657DBD32177806A2A /* Pods-IosSandboxAnimateUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6E14E7E80F343BBF72171548326399F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823D387776A0BA3730263EA46C24AEC6 /* libPods-IosSandboxAnimate.a */,
+				106ECF6B6A18AC5F3BD8E881F2F8B548 /* libPods-IosSandboxAnimateTests.a */,
+				A1DC545A172571D0CB8224E2998E83F3 /* libPods-IosSandboxAnimateUITests.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				09C5E90726D2521A760312DBF50D9358 /* Products */,
-				F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6E14E7E80F343BBF72171548326399F2 /* Products */,
+				5141298CD8B04D2E822EC1677D55B772 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F6CCA5D896907CE7506C37FD31FC265A /* Targets Support Files */ = {
+		8E894A9080C9698657DBD32177806A2A /* Pods-IosSandboxAnimateUITests */ = {
 			isa = PBXGroup;
 			children = (
+				6DE34042072A8EC02DB81C555DA453BC /* Pods-IosSandboxAnimateUITests-acknowledgements.markdown */,
+				CBD9FC0F68D7ED3444A67A21F395EA47 /* Pods-IosSandboxAnimateUITests-acknowledgements.plist */,
+				0A8E1DE3BA0EDD23D28CD1A9E362D4BD /* Pods-IosSandboxAnimateUITests-dummy.m */,
+				E5CD9C5AF49799B197EF3923A4D841C2 /* Pods-IosSandboxAnimateUITests-frameworks.sh */,
+				DFC576535917E31DE882CC7C8ABCD47A /* Pods-IosSandboxAnimateUITests-resources.sh */,
+				A0388FA57CB81E1565B2A113CFA42410 /* Pods-IosSandboxAnimateUITests.debug.xcconfig */,
+				BCA63BE3BB82A960537553AFE3F73466 /* Pods-IosSandboxAnimateUITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-IosSandboxAnimateUITests";
+			path = "Target Support Files/Pods-IosSandboxAnimateUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27993E1118385897A9D3689565F973AB /* Pods-IosSandboxAnimateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB373DA413DDE6100CF63BA8396703F /* Build configuration list for PBXNativeTarget "Pods-IosSandboxAnimateUITests" */;
+			buildPhases = (
+				50727031801532ABC72B1A878356CAD3 /* Sources */,
+				04C884C51EE36A1BD49D590B3CACC1AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-IosSandboxAnimateUITests";
+			productName = "Pods-IosSandboxAnimateUITests";
+			productReference = A1DC545A172571D0CB8224E2998E83F3 /* libPods-IosSandboxAnimateUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		67AEE58AB97EE3291B6595E6EF41E53A /* Pods-IosSandboxAnimateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E63983D04D98D1E3E61E91BEFA7EE20 /* Build configuration list for PBXNativeTarget "Pods-IosSandboxAnimateTests" */;
+			buildPhases = (
+				6C1177AA3BE6922E17A2D8140EE8FA23 /* Sources */,
+				C2159B57AC4B13653DDB05ACA456E6E1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-IosSandboxAnimateTests";
+			productName = "Pods-IosSandboxAnimateTests";
+			productReference = 106ECF6B6A18AC5F3BD8E881F2F8B548 /* libPods-IosSandboxAnimateTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB9304B8EEE2ADE505391FEA7B45C9A4 /* Pods-IosSandboxAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5600CFB415074D86A80226095925A16E /* Build configuration list for PBXNativeTarget "Pods-IosSandboxAnimate" */;
+			buildPhases = (
+				96047C6C932A6BA7988355F646AA4D7D /* Sources */,
+				5F463FBE7056DC44904F60547D7A9E15 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-IosSandboxAnimate";
+			productName = "Pods-IosSandboxAnimate";
+			productReference = 823D387776A0BA3730263EA46C24AEC6 /* libPods-IosSandboxAnimate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -59,55 +231,130 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 09C5E90726D2521A760312DBF50D9358 /* Products */;
+			productRefGroup = 6E14E7E80F343BBF72171548326399F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				CB9304B8EEE2ADE505391FEA7B45C9A4 /* Pods-IosSandboxAnimate */,
+				67AEE58AB97EE3291B6595E6EF41E53A /* Pods-IosSandboxAnimateTests */,
+				27993E1118385897A9D3689565F973AB /* Pods-IosSandboxAnimateUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXSourcesBuildPhase section */
+		50727031801532ABC72B1A878356CAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E49A5CAA8F7F24E055CAD8ADCED3BE /* Pods-IosSandboxAnimateUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1177AA3BE6922E17A2D8140EE8FA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6C297B2205894E0972650F88E5C38B /* Pods-IosSandboxAnimateTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96047C6C932A6BA7988355F646AA4D7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2ABE050F27B7317CBCC3A3BA64A8A4 /* Pods-IosSandboxAnimate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCBuildConfiguration section */
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		09493341AD558E7534EFD98B43E1CC67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05886B9A4EE316421806AB98E6BC836D /* Pods-IosSandboxAnimate.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		0BE1CD3B570E476C04FF3175E3503BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955AB28F932ABCF56D94ED3677BDACA5 /* Pods-IosSandboxAnimateTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		16FC93A154035AA42C2C19BA87B6ACA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62D6BB4CB8167C9968A05F37BE94C7E /* Pods-IosSandboxAnimate.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1CB40B910AE1061481C2EB46C4FD9B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA63BE3BB82A960537553AFE3F73466 /* Pods-IosSandboxAnimateUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -127,7 +374,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -141,14 +391,124 @@
 			};
 			name = Release;
 		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F1E1232507254C45A12880AB826B580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0388FA57CB81E1565B2A113CFA42410 /* Pods-IosSandboxAnimateUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC6824E9D9614A67DD62B24AB37230B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B44572C0C7A6718FCD443DC808F1702 /* Pods-IosSandboxAnimateTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5600CFB415074D86A80226095925A16E /* Build configuration list for PBXNativeTarget "Pods-IosSandboxAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09493341AD558E7534EFD98B43E1CC67 /* Debug */,
+				16FC93A154035AA42C2C19BA87B6ACA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB373DA413DDE6100CF63BA8396703F /* Build configuration list for PBXNativeTarget "Pods-IosSandboxAnimateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1E1232507254C45A12880AB826B580 /* Debug */,
+				1CB40B910AE1061481C2EB46C4FD9B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E63983D04D98D1E3E61E91BEFA7EE20 /* Build configuration list for PBXNativeTarget "Pods-IosSandboxAnimateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE1CD3B570E476C04FF3175E3503BFF /* Debug */,
+				DC6824E9D9614A67DD62B24AB37230B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
